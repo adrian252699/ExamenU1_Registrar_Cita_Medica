@@ -9,5 +9,9 @@ package modelo;
  * @author jalt2
  */
 public enum EstadoRegistro {
-    
+    INICIO,
+    PACIENTE_IDENTIFICADO,
+    MEDICO_SELECCIONADO,
+    HORARIO_SELECCIONADO,
+    CITA_REGISTRADA
 }

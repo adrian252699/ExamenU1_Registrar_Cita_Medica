@@ -4,10 +4,19 @@
  */
 package controlador;
 
+import java.time.LocalDate;
+import java.time.LocalTime;
+import modelo.entidades.Medico;
+
 /**
  *
  * @author jalt2
  */
 public interface IRegistroCitaController {
-    
+    void buscarPaciente(String nss);
+    void seleccionarMedico(Medico medico);
+    void seleccionarFecha(LocalDate fecha);
+    void seleccionarHora(LocalTime hora);
+    void apartarCita();
+    void reiniciar();
 }
